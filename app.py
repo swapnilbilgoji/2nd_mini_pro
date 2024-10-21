@@ -45,8 +45,7 @@ submit=st.button("Tell me about the image")
 
 ## If ask button is clicked
 
-if submit:
-    
+if submit: 
     response=get_gemini_response(input,image)
     st.subheader("The Response is")
     st.write(response)
